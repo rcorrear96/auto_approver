@@ -1,0 +1,3 @@
+[submodule "didi_core"]
+	path = didi_core
+	url = https://git.xiaojukeji.com/raulcorrea/didi_core.git
