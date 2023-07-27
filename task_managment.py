@@ -1,14 +1,17 @@
+import sys
+sys.path.append('didi_core')
+
 from gattaranuse.tasklist import *
 from time import sleep
 
-f = open(r'api_keys.txt')
+f = open(r'aux_files/api_keys.txt')
 llaves = f.read()
 if(llaves[43:45] == 'MX'):
     ticketId = llaves[97:142]
-    wsgsigId = llaves[-138:]
+    wsgsigId = llaves[-128:]
 else:
     ticketId = llaves[90:135]
-    wsgsigId = llaves[-138:]
+    wsgsigId = llaves[-128:]
 f.close()
 
 countries = ['MX','PE','CL','DO','CR','CO']
