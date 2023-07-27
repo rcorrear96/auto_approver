@@ -204,3 +204,4 @@ $RECYCLE.BIN/
 # Este es para agregar la carpeta a ignorados y no jalarla durante los commits
 aux_scripts/
 aux_files/
+.vscode/
